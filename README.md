@@ -8,9 +8,9 @@ Off-hours I run a homelab and build the tools I wish existed. Same pattern in bo
 
 #### Things I've shipped
 
+- **[jobreif.de](https://jobreif.de)** — live LLM-powered PWA that turns any job posting into an interactive hiring-test simulator. Multi-provider (Claude, OpenAI, DeepSeek) plus local models, structured question generation + scoring. Cloudflare Workers backend (gating, tiers, quality tests, Grafana). Vanilla JS, no build step. [Source](https://github.com/qudiqudi/jobreif)
 - **[hubi.work](https://hubi.work)** — live PWA time tracker. Vanilla JS, zero npm deps. E2E-encrypted cross-device sync (AES-256-GCM, 12-word seed phrase). Cloudflare Workers + KV backend, observability via custom metrics + Grafana. [Source](https://github.com/qudiqudi/timetracker)
 - **[YAPP](https://github.com/qudiqudi/yapp)** — vanilla-JS ZFS pool planner. Encodes vdev safety math (MTBF / URE / resilver time), pluggable multi-region live pricing across four retailer sources, zero dependencies.
-- **[langarr](https://github.com/qudiqudi/langarr)** — automatic language-based quality profile management for Radarr / Sonarr.
 - **[marax-shot-timer](https://github.com/qudiqudi/marax-shot-timer)** — Lelit MaraX espresso machine telemetry over WiFi to InfluxDB.
 
 #### Stack
