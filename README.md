@@ -4,7 +4,7 @@ I own a data platform at work — SQL, ETL, BI, exec dashboards, the whole stack
 
 Off-hours I run a homelab and build the tools I wish existed. Same pattern in both places: see a real problem, build the thing, ship it.
 
-I build with AI in both places. Off-hours that means LLM products and coding agents every day: Claude Code with my own skills and hooks, Codex as second reviewer.
+I build with AI in both places. Off-hours that means LLM products and coding agents every day: Claude Code with my own skills and hooks, MCP connections to my self-hosted apps, Codex as second reviewer.
 
 **Open to EU-remote roles — Data & AI Platform / Analytics Engineering / Full-Stack Tooling.**
 
@@ -16,8 +16,20 @@ I build with AI in both places. Off-hours that means LLM products and coding age
 - [Grafana finance playbook](https://qudiqudi.github.io/grafana-playbook-finance/) is a runnable Grafana, Postgres and Prometheus stack with seeded finance data, four dashboards and a written guide to metrics, dashboard design and alerting. [Source](https://github.com/qudiqudi/grafana-playbook-finance)
 - [marax-shot-timer](https://github.com/qudiqudi/marax-shot-timer) sends Lelit MaraX espresso machine telemetry over WiFi to InfluxDB.
 
+#### Not public
+
+Self-hosted agents in production:
+
+- The coach in my training app is a headless Claude agent. It answers questions and reads meal photos. FastAPI, SQLite, PWA.
+- A portfolio pipeline with an append-only ledger and a scheduled LLM analyst that can only propose.
+
+And two data projects:
+
+- A geodata pipeline: official statistics, census grids, OSM and GTFS into PostGIS, a scored 100 m grid with uncertainty analysis, a MapLibre map. Tests and CI.
+- An ML proxy for a photo library: FastAPI in front of two inference backends, with circuit breaker, fallback and reference checks.
+
 Upstream, I have fixes merged into [smfc](https://github.com/petersulyok/smfc) (Supermicro fan control) and [immich-animals](https://github.com/rtp4jc/immich-animals) (animal recognition for Immich).
 
 #### Stack
 
-Python · JavaScript · SQL · Claude API · Claude Code · Codex · Ollama · Docker · TrueNAS / ZFS · Snowflake · Power BI · Grafana · Cloudflare Workers · Web Crypto · whatever the problem needs
+Python · JavaScript · SQL · Claude API · Claude Code · MCP · Codex · Ollama · Docker · TrueNAS / ZFS · Snowflake · Power BI · Grafana · Cloudflare Workers · Web Crypto · whatever the problem needs
