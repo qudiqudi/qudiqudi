@@ -1,4 +1,4 @@
-### Self-taught engineer building tools.
+### Engineer building tools.
 
 I own a data platform at work — SQL, ETL, BI, exec dashboards, the whole stack.
 
