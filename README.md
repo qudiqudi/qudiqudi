@@ -4,7 +4,7 @@ I own a data platform at work — SQL, ETL, BI, exec dashboards, the whole stack
 
 Off-hours I run a homelab and build the tools I wish existed. Same pattern in both places: see a real problem, build the thing, ship it.
 
-My own projects are built with AI and often around it. I ship LLM products, and I work with coding agents every day: Claude Code with my own skills and hooks, Codex as second reviewer.
+I build with AI in both places. Off-hours that means LLM products and coding agents every day: Claude Code with my own skills and hooks, Codex as second reviewer.
 
 **Open to EU-remote roles — Data & AI Platform / Analytics Engineering / Full-Stack Tooling.**
 
